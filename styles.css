@@ -1,0 +1,138 @@
+/* Réinitialisation des styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fond général */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* En-tête */
+header {
+  background-color: #263238; /* Couleur sombre élégante */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-right: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #FF7043; /* Orange vif pour le titre */
+}
+
+header .logo {
+  width: 60px;
+  height: auto;
+}
+
+/* Menu de navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #FF7043;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: #FF5722;
+  text-decoration: underline;
+}
+
+/* Sections */
+.section-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 2.5em;
+  color: #FF7043;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px;
+}
+
+.sub-title {
+  font-size: 2em;
+  color: #263238;
+  margin-top: 20px;
+}
+
+.section-text {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+footer {
+  background-color: #263238;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+/* Lien email */
+a {
+  color: #FF7043;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #FF5722;
+}
+
+/* Réactivité (Mobile friendly) */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  .section-container {
+    padding: 20px;
+  }
+
+  footer {
+    font-size: 0.9em;
+  }
+}
